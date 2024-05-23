@@ -6,7 +6,7 @@ function App() {
   return (
     <>
    <Header />
-      <h1 className='font-title text-6xl text-center mt-10 font-bold text-white'>Populares</h1>
+      <h1 className='font-title text-6xl text-center mt-10 font-bold text-cyan-400'>Populares</h1>
     </>
   )
 }
