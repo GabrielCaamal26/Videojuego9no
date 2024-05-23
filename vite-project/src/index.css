@@ -2,4 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-  
+  .swiper {
+    --swiper-theme-color: #fefefe;
+    --swiper-pagination-bullet-inactive-color: #fefefe;
+  }

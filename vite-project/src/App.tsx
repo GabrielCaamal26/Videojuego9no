@@ -1,14 +1,19 @@
 import './App.css'
 import Header from '../src/components/layouts/header'
-
+import Populares from './components/layouts/populares'
+import Novedades from './components/layouts/novedades'
+import Ofertas from './components/layouts/ofertas'
 function App() {
 
   return (
     <>
    <Header />
-      <h1 className='font-title text-6xl text-center mt-10 font-bold text-cyan-400'>Populares</h1>
+    <Populares/> 
+    <Novedades/>
+    <Ofertas/>
     </>
-  )
+
+  ) 
 }
 
 export default App
