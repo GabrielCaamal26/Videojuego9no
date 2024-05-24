@@ -3,6 +3,7 @@ import Header from '../src/components/layouts/header'
 import Populares from './components/layouts/populares'
 import Novedades from './components/layouts/novedades'
 import Ofertas from './components/layouts/ofertas'
+import Footer from './components/layouts/footer'
 function App() {
 
   return (
@@ -11,6 +12,7 @@ function App() {
     <Populares/> 
     <Novedades/>
     <Ofertas/>
+    <Footer/>
     </>
 
   ) 
