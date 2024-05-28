@@ -6,3 +6,24 @@
     --swiper-theme-color: #fefefe;
     --swiper-pagination-bullet-inactive-color: #fefefe;
   }
+
+  .swiper-slide {
+    perspective: 1000px;
+  }
+
+  .card {
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  .swiper-slide:hover .card {
+    transform: rotateY(180deg);
+  }
+
+  .front, .back {
+    backface-visibility: hidden;
+  }
+
+  .back {
+    transform: rotateY(180deg);
+  }
